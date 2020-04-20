@@ -4,6 +4,9 @@ GloVe is an unsupervised learning algorithm for generating vector representation
 Base Paper underlying the methodology:
 https://nlp.stanford.edu/pubs/glove.pdf
 
-Current Implementation is in PyTorch.
+This Project contains implementation in PyTorch.
 
-Currently WIP - Data Preparation steps are not here. 
+This will generate embeddings for Words and map them closely to each other in N dimensional space. 
+ 
+Data Preparation : How to Prepare data for Training
+Training Module : Parse your data and fine tune the embeddings.
