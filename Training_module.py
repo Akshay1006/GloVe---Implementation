@@ -147,4 +147,4 @@ embed_tsne = tsne.fit_transform(emb[:top_k, :])
 fig, ax = plt.subplots(figsize=(14, 14))
 for idx in range(top_k):
     plt.scatter(*embed_tsne[idx, :], color='steelblue')
-    plt.annotate(id2offer[idx], (embed_tsne[idx, 0], embed_tsne[idx, 1]), alpha=0.7)
+    plt.annotate(id2word[idx], (embed_tsne[idx, 0], embed_tsne[idx, 1]), alpha=0.7)
